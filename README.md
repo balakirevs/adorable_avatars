@@ -35,10 +35,22 @@ AdorableAvatars.setup do |config|
 end
 ```
 
-| Note: Size can range from 40px to 285px
+> Note: Size can range from 40px to 285px
 
 Adorable avatars create simple wrapper around image_tag, so you can use all options that [image_tag](http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html#method-i-image_tag) accepts
 
 ```erb
 <%= adorable_avatar user.email, size: 50, alt: 'Adorable avatar' %>
 ```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
+## Copyright
+
+Copyright (c) 2015 Mateusz Świszcz. See LICENSE for details.
