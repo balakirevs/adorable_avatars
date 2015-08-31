@@ -1,0 +1,3 @@
+module AdorableAvatars
+
+end
