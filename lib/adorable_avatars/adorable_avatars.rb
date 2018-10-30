@@ -10,7 +10,7 @@ module AdorableAvatars
   end
 
   def adorable_avatar_url(digest, size)
-    "http://api.adorable.io/avatars/#{size}/#{digest}.png"
+    "https://api.adorable.io/avatars/#{size}/#{digest}.png"
   end
 
   def self.setup
